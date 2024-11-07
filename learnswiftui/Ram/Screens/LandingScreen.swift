@@ -11,6 +11,8 @@ struct LandingScreen: View {
     @State var goToLogin = false
     @State var goToSignup = false
 
+    @StateObject private var viewModel = MyViewModel()
+
     var body: some View {
         NavigationStack {
             screen
@@ -32,12 +34,20 @@ struct LandingScreen: View {
                 Spacer()
 
                 PrimaryButton(title: "Create An Account") {
-                    debugPrint("Hello")
+                    viewModel.fetchPosts()
                 }
                 .padding(.bottom, 10)
 
                 SecondaryButton(title: "Log into Your Account") {
                     goToLogin = true
+                }
+                .padding(.bottom, 10)
+
+                if !viewModel.posts.isEmpty {
+                    PrimaryButton(title: viewModel.posts[0].title) {
+                        debugPrint("Hello")
+                    }
+                    .padding(.bottom, 10)
                 }
             }
             .padding()

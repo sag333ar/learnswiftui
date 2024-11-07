@@ -3,26 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		1BCEB0B92CDC8147009364AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A12CDC8147009364AF /* Preview Assets.xcassets */; };
+		1BCEB0BA2CDC8147009364AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B32CDC8147009364AF /* Assets.xcassets */; };
+		1BCEB0BB2CDC8147009364AF /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A32CDC8147009364AF /* PrimaryButton.swift */; };
+		1BCEB0BC2CDC8147009364AF /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A42CDC8147009364AF /* SecondaryButton.swift */; };
+		1BCEB0BD2CDC8147009364AF /* Headline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A62CDC8147009364AF /* Headline.swift */; };
+		1BCEB0BE2CDC8147009364AF /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A72CDC8147009364AF /* Title.swift */; };
+		1BCEB0BF2CDC8147009364AF /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0A92CDC8147009364AF /* PrimaryTextField.swift */; };
+		1BCEB0C02CDC8147009364AF /* LandingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0AC2CDC8147009364AF /* LandingScreen.swift */; };
+		1BCEB0C12CDC8147009364AF /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0AD2CDC8147009364AF /* LoginScreen.swift */; };
+		1BCEB0C22CDC8147009364AF /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0AF2CDC8147009364AF /* Flags.swift */; };
+		1BCEB0C32CDC8147009364AF /* LetsConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B02CDC8147009364AF /* LetsConvert.swift */; };
+		1BCEB0C42CDC8147009364AF /* RamContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B12CDC8147009364AF /* RamContentView.swift */; };
+		1BCEB0C52CDC8147009364AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B42CDC8147009364AF /* ContentView.swift */; };
+		1BCEB0C62CDC8147009364AF /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B52CDC8147009364AF /* ContentView2.swift */; };
+		1BCEB0C72CDC8147009364AF /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B62CDC8147009364AF /* ContentView3.swift */; };
+		1BCEB0C82CDC8147009364AF /* learnswiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0B72CDC8147009364AF /* learnswiftuiApp.swift */; };
+		1BCEB0CB2CDC8993009364AF /* MyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0CA2CDC8993009364AF /* MyAPI.swift */; };
+		1BCEB0CD2CDC89EE009364AF /* LandingScreenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCEB0CC2CDC89EE009364AF /* LandingScreenVM.swift */; };
+		6564600B8C9C8B6AC91BE027 /* Pods_learnswiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4015B3770E6FE009CB8F05AE /* Pods_learnswiftui.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B9A37952CC7B9A000667468 /* learnswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCEB0A12CDC8147009364AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BCEB0A32CDC8147009364AF /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		1BCEB0A42CDC8147009364AF /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		1BCEB0A62CDC8147009364AF /* Headline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headline.swift; sourceTree = "<group>"; };
+		1BCEB0A72CDC8147009364AF /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		1BCEB0A92CDC8147009364AF /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
+		1BCEB0AC2CDC8147009364AF /* LandingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreen.swift; sourceTree = "<group>"; };
+		1BCEB0AD2CDC8147009364AF /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		1BCEB0AF2CDC8147009364AF /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		1BCEB0B02CDC8147009364AF /* LetsConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsConvert.swift; sourceTree = "<group>"; };
+		1BCEB0B12CDC8147009364AF /* RamContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RamContentView.swift; sourceTree = "<group>"; };
+		1BCEB0B32CDC8147009364AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BCEB0B42CDC8147009364AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1BCEB0B52CDC8147009364AF /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		1BCEB0B62CDC8147009364AF /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
+		1BCEB0B72CDC8147009364AF /* learnswiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learnswiftuiApp.swift; sourceTree = "<group>"; };
+		1BCEB0CA2CDC8993009364AF /* MyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPI.swift; sourceTree = "<group>"; };
+		1BCEB0CC2CDC89EE009364AF /* LandingScreenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingScreenVM.swift; sourceTree = "<group>"; };
+		4015B3770E6FE009CB8F05AE /* Pods_learnswiftui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_learnswiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EE0C220405F0A0DC5CDF75 /* Pods-learnswiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnswiftui.release.xcconfig"; path = "Target Support Files/Pods-learnswiftui/Pods-learnswiftui.release.xcconfig"; sourceTree = "<group>"; };
+		ACF4611AF8613D9309D3EA2F /* Pods-learnswiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-learnswiftui.debug.xcconfig"; path = "Target Support Files/Pods-learnswiftui/Pods-learnswiftui.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1B9A37972CC7B9A000667468 /* learnswiftui */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = learnswiftui;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1B9A37922CC7B9A000667468 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6564600B8C9C8B6AC91BE027 /* Pods_learnswiftui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,8 +68,10 @@
 		1B9A378C2CC7B9A000667468 = {
 			isa = PBXGroup;
 			children = (
-				1B9A37972CC7B9A000667468 /* learnswiftui */,
+				1BCEB0B82CDC8147009364AF /* learnswiftui */,
 				1B9A37962CC7B9A000667468 /* Products */,
+				F6BDEE4E244852C15D27C3B2 /* Pods */,
+				3C82A3AAA6CC22981256C9DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +83,112 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		1BCEB0A22CDC8147009364AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0A12CDC8147009364AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BCEB0A52CDC8147009364AF /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0A32CDC8147009364AF /* PrimaryButton.swift */,
+				1BCEB0A42CDC8147009364AF /* SecondaryButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		1BCEB0A82CDC8147009364AF /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0A62CDC8147009364AF /* Headline.swift */,
+				1BCEB0A72CDC8147009364AF /* Title.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		1BCEB0AA2CDC8147009364AF /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0A92CDC8147009364AF /* PrimaryTextField.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		1BCEB0AB2CDC8147009364AF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0A52CDC8147009364AF /* Button */,
+				1BCEB0A82CDC8147009364AF /* Text */,
+				1BCEB0AA2CDC8147009364AF /* TextField */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1BCEB0AE2CDC8147009364AF /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0AC2CDC8147009364AF /* LandingScreen.swift */,
+				1BCEB0CC2CDC89EE009364AF /* LandingScreenVM.swift */,
+				1BCEB0AD2CDC8147009364AF /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1BCEB0B22CDC8147009364AF /* Ram */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0AB2CDC8147009364AF /* Components */,
+				1BCEB0AE2CDC8147009364AF /* Screens */,
+				1BCEB0AF2CDC8147009364AF /* Flags.swift */,
+				1BCEB0B02CDC8147009364AF /* LetsConvert.swift */,
+				1BCEB0B12CDC8147009364AF /* RamContentView.swift */,
+			);
+			path = Ram;
+			sourceTree = "<group>";
+		};
+		1BCEB0B82CDC8147009364AF /* learnswiftui */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0C92CDC897F009364AF /* Network */,
+				1BCEB0A22CDC8147009364AF /* Preview Content */,
+				1BCEB0B22CDC8147009364AF /* Ram */,
+				1BCEB0B32CDC8147009364AF /* Assets.xcassets */,
+				1BCEB0B42CDC8147009364AF /* ContentView.swift */,
+				1BCEB0B52CDC8147009364AF /* ContentView2.swift */,
+				1BCEB0B62CDC8147009364AF /* ContentView3.swift */,
+				1BCEB0B72CDC8147009364AF /* learnswiftuiApp.swift */,
+			);
+			path = learnswiftui;
+			sourceTree = "<group>";
+		};
+		1BCEB0C92CDC897F009364AF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEB0CA2CDC8993009364AF /* MyAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3C82A3AAA6CC22981256C9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4015B3770E6FE009CB8F05AE /* Pods_learnswiftui.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6BDEE4E244852C15D27C3B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACF4611AF8613D9309D3EA2F /* Pods-learnswiftui.debug.xcconfig */,
+				64EE0C220405F0A0DC5CDF75 /* Pods-learnswiftui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,20 +196,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B9A37A32CC7B9A600667468 /* Build configuration list for PBXNativeTarget "learnswiftui" */;
 			buildPhases = (
+				6DA75448A3DFBD7CF3A5071F /* [CP] Check Pods Manifest.lock */,
 				1B9A37912CC7B9A000667468 /* Sources */,
 				1B9A37922CC7B9A000667468 /* Frameworks */,
 				1B9A37932CC7B9A000667468 /* Resources */,
+				11F8692DDACE48B10A9CC57A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				1B9A37972CC7B9A000667468 /* learnswiftui */,
-			);
 			name = learnswiftui;
-			packageProductDependencies = (
-			);
 			productName = learnswiftui;
 			productReference = 1B9A37952CC7B9A000667468 /* learnswiftui.app */;
 			productType = "com.apple.product-type.application";
@@ -86,6 +227,7 @@
 				};
 			};
 			buildConfigurationList = 1B9A37902CC7B9A000667468 /* Build configuration list for PBXProject "learnswiftui" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -93,8 +235,6 @@
 				Base,
 			);
 			mainGroup = 1B9A378C2CC7B9A000667468;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 1B9A37962CC7B9A000667468 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -109,16 +249,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCEB0B92CDC8147009364AF /* Preview Assets.xcassets in Resources */,
+				1BCEB0BA2CDC8147009364AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F8692DDACE48B10A9CC57A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learnswiftui/Pods-learnswiftui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-learnswiftui/Pods-learnswiftui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-learnswiftui/Pods-learnswiftui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DA75448A3DFBD7CF3A5071F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-learnswiftui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B9A37912CC7B9A000667468 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCEB0CD2CDC89EE009364AF /* LandingScreenVM.swift in Sources */,
+				1BCEB0BB2CDC8147009364AF /* PrimaryButton.swift in Sources */,
+				1BCEB0BC2CDC8147009364AF /* SecondaryButton.swift in Sources */,
+				1BCEB0BD2CDC8147009364AF /* Headline.swift in Sources */,
+				1BCEB0BE2CDC8147009364AF /* Title.swift in Sources */,
+				1BCEB0BF2CDC8147009364AF /* PrimaryTextField.swift in Sources */,
+				1BCEB0CB2CDC8993009364AF /* MyAPI.swift in Sources */,
+				1BCEB0C02CDC8147009364AF /* LandingScreen.swift in Sources */,
+				1BCEB0C12CDC8147009364AF /* LoginScreen.swift in Sources */,
+				1BCEB0C22CDC8147009364AF /* Flags.swift in Sources */,
+				1BCEB0C32CDC8147009364AF /* LetsConvert.swift in Sources */,
+				1BCEB0C42CDC8147009364AF /* RamContentView.swift in Sources */,
+				1BCEB0C52CDC8147009364AF /* ContentView.swift in Sources */,
+				1BCEB0C62CDC8147009364AF /* ContentView2.swift in Sources */,
+				1BCEB0C72CDC8147009364AF /* ContentView3.swift in Sources */,
+				1BCEB0C82CDC8147009364AF /* learnswiftuiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +446,7 @@
 		};
 		1B9A37A42CC7B9A600667468 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACF4611AF8613D9309D3EA2F /* Pods-learnswiftui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -259,6 +460,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -274,6 +476,7 @@
 		};
 		1B9A37A52CC7B9A600667468 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EE0C220405F0A0DC5CDF75 /* Pods-learnswiftui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -287,6 +490,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
