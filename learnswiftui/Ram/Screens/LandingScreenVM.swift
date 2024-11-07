@@ -11,9 +11,14 @@ import Moya
 class MyViewModel: ObservableObject {
     private let provider = MoyaProvider<MyAPI>()
     @Published var posts: [Post] = []
+    @Published var loading = false
 
     func fetchPosts() {
+        loading = true
         provider.request(.getPosts) { result in
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                self.loading = false
+            }
             switch result {
                 case .success(let response):
                     debugPrint("It was success")

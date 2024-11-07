@@ -15,7 +15,11 @@ struct LandingScreen: View {
 
     var body: some View {
         NavigationStack {
-            screen
+            if viewModel.loading {
+                ProgressView()
+            } else {
+                screen
+            }
         }
     }
 
