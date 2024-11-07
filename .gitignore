@@ -1,0 +1,80 @@
+# User-specific files
+*.xcuserdatad
+*.xcuserdata
+*.swp
+*.swo
+*.lock
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Derived data
+DerivedData/
+.idea/
+*.hmap
+
+# Other
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/xcode/package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+
+# SwiftLint
+.swiftlint.yml
+.swiftformat
+.swift-version
+
+# Environment files
+.env
+
+# Generated schemes
+*.xcscheme
+
+# Firebase related files
+GoogleService-Info.plist
+
+# xcresult bundle
+*.xcresult
+
+# App Store Connect
+*.ipa
+*.dSYM.zip
+
+# Temporary files for Swift Playgrounds
+timeline.xctimeline
+playground.xcplayground
+
+# Machine-specific data
+*.swp
+*.swo
